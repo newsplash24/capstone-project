@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f6f6">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        android:paddingTop="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:id="@+id/header">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/hName"
+            android:text="Name"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:background="@drawable/cell_header_shape_left"
+            android:textStyle="bold"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/hDosage"
+            android:layout_weight="0.23"
+            android:text="Dosage"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:background="@drawable/cell_header_shape"
+            android:textStyle="bold"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/hPDate"
+            android:layout_weight="0.23"
+            android:text="Pro-Date"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:background="@drawable/cell_header_shape"
+            android:textStyle="bold"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/hEDate"
+            android:layout_weight="0.30"
+            android:text="Exp-date"
+            android:gravity="center"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:background="@drawable/cell_header_shape"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        >
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

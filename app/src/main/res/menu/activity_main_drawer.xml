@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/item_news_feed" />
+
+        <item
+            android:id="@+id/nav_insert"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/item_insert_medication" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/item_medication_list" />
+
+        <item
+            android:id="@+id/nav_expired"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/item_expired_medications" />
+
+    </group>
+
+
+</menu>

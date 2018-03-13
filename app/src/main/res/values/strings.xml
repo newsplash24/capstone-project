@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pill Up</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_authority">com.example.www.medicationReminder</string>
+    <string name="hello_message">Expired medications appears here. to insert a medication please choose \'Insert\' from the side navigator.</string>
+    <string name="item_medication_list">Medications List</string>
+    <string name="item_insert_medication">Add Medication</string>
+    <string name="item_expired_medications">Expired Medications</string>
+    <string name="item_news_feed">News Feed</string>
+    <string name="appbar_news_title">Health News</string>
+    <string name="cd_article_image">article image</string>
+    <string name="hint_medication_name">medication name</string>
+    <string name="hint_medication_type">E.x \"syrup or pills\"</string>
+    <string name="hint_medication_dosage">E.x \"1 pill, 1 spoon\"</string>
+    <string name="hint_dosage_time">E.x \" 1 PM\"</string>
+    <string name="action_widget">save to widget</string>
+    <string name="medication_reminder">Medication Reminder</string>
+
+
+</resources>

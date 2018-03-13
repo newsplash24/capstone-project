@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingRight="3dp"
+    android:paddingLeft="3dp"
+    android:minHeight="38dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/item_name"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:singleLine="false"
+        android:background="@drawable/cell_shape_left"
+        android:textColor="#ff3b3b3b"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/item_PDate"
+        android:layout_weight="0.23"
+        android:gravity="center"
+        android:background="@drawable/cell_shape_left"
+        android:textColor="#ff3b3b3b"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/item_EDate"
+        android:layout_weight="0.23"
+        android:gravity="center"
+        android:background="@drawable/cell_shape_right"
+        android:textColor="#ff3b3b3b"
+        android:textSize="15dp" />
+
+
+</TableRow>
