@@ -18,7 +18,7 @@ import android.widget.Toast;
 
 
 import com.MhMohamed.PillUp.data.MedicationContract;
-import com.example.www.medicationReminder.R;
+import com.MhMohamed.PillUp.R;
 
 
 import butterknife.BindView;

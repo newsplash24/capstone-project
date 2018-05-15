@@ -1,11 +1,18 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'pill_up'
+            keyPassword '88888888'
+            storeFile file("$rootDir/capstone_keystore.jks")
+            storePassword '88888888'
+        }
+    }
     compileSdkVersion 26
 //    buildToolsVersion "23.0.2"
-
     defaultConfig {
-        applicationId "com.example.www.PillUp"
+        applicationId "com.MhMohamed.PillUp"
         multiDexEnabled true
         minSdkVersion 21
         targetSdkVersion 26
@@ -16,13 +23,14 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }
 
 dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support:design:26.1.0'
@@ -31,8 +39,7 @@ dependencies {
     implementation 'com.squareup.picasso:picasso:2.5.2'
     implementation 'com.android.support:cardview-v7:26.1.0'
     implementation 'com.android.support:recyclerview-v7:26.1.0'
-    implementation 'com.google.android.gms:play-services:11.4.0'
     implementation 'com.google.android.gms:play-services-analytics:10.2.4'
-
+    implementation 'com.google.android.gms:play-services-ads:10.2.4'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }

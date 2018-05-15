@@ -1,5 +1,6 @@
 package com.MhMohamed.PillUp;
 
+import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.net.Uri;
@@ -16,7 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.MhMohamed.PillUp.data.MedicationContract;
-import com.example.www.medicationReminder.R;
+import com.MhMohamed.PillUp.R;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -197,6 +198,7 @@ public class FragmentAdd extends Fragment {
             final AlertDialog alertDialog = new AlertDialog.Builder(getActivity()).create();
 
             dialogView.findViewById(R.id.date_time_set).setOnClickListener(new View.OnClickListener() {
+                @SuppressLint("SetTextI18n")
                 @Override
                 public void onClick(View view) {
 

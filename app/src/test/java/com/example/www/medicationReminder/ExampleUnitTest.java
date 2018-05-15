@@ -1,4 +1,4 @@
-package com.example.www.medicationReminder;
+package com.MhMohamed.www.medicationReminder;
 
 import org.junit.Test;
 

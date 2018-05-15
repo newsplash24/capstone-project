@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.example.www.medicationReminder.R;
+import com.MhMohamed.PillUp.R;
 import com.MhMohamed.PillUp.models.New;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;

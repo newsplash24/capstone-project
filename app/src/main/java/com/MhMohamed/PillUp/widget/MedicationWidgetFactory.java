@@ -13,7 +13,7 @@ import android.widget.RemoteViewsService;
 
 import com.MhMohamed.PillUp.data.MedicationContract;
 import com.MhMohamed.PillUp.models.Medication;
-import com.example.www.medicationReminder.R;
+import com.MhMohamed.PillUp.R;
 
 import java.util.ArrayList;
 import java.util.List;

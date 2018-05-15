@@ -20,7 +20,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.MhMohamed.PillUp.data.MedicationContract;
-import com.example.www.medicationReminder.R;
+import com.MhMohamed.PillUp.R;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -8,7 +8,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="content_authority">com.example.www.medicationReminder</string>
+    <string name="content_authority">com.MhMohamed.PillUp</string>
     <string name="hello_message">Expired medications appears here. to insert a medication please choose \'Insert\' from the side navigator.</string>
     <string name="item_medication_list">Medications List</string>
     <string name="item_insert_medication">Add Medication</string>
@@ -22,6 +22,19 @@
     <string name="hint_dosage_time">E.x \" 1 PM\"</string>
     <string name="action_widget">save to widget</string>
     <string name="medication_reminder">Medication Reminder</string>
+    <string name="date_time_set_button">Set</string>
+    <string name="textview_medication">Medication:</string>
+    <string name="textview_type">Type:</string>
+    <string name="textview_dosage">Dosage:</string>
+    <string name="textview_dosage_time">Dosage Time:</string>
+    <string name="production_date">Production Date:</string>
+    <string name="expiry_date">Expiry Date:</string>
+    <string name="button_save">Save</string>
+    <string name="textview_name">Name</string>
+    <string name="textview_show_dosage">Dosage</string>
+    <string name="pro_date">Pro-Date</string>
+    <string name="exp_date">Exp-date</string>
+    <string name="textview__name">Name</string>
 
 
 </resources>

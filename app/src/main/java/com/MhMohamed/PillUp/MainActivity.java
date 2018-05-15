@@ -23,7 +23,7 @@ import com.MhMohamed.PillUp.adapters.NewsListAdapter;
 import com.MhMohamed.PillUp.data.MedicationContract;
 import com.MhMohamed.PillUp.models.Medication;
 import com.MhMohamed.PillUp.widget.MedicationWidget;
-import com.example.www.medicationReminder.R;
+import com.MhMohamed.PillUp.R;
 import com.MhMohamed.PillUp.models.New;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -105,8 +105,10 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
         navigationView.setCheckedItem(R.id.nav_news);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.content, new NewsFragment()
-        ).commit();
+       if(savedInstanceState == null) {
+           getSupportFragmentManager().beginTransaction().replace(R.id.content, new NewsFragment()
+           ).commit();
+       }
 
 //        getMenuInflater().inflate(R.menu.activity_main_drawer, menu);
 //        MenuItem menuItem = menu.getItem(R.id.nav_expired);

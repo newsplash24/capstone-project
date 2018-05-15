@@ -23,7 +23,7 @@ package com.MhMohamed.PillUp;
 
 import android.app.Application;
 
-import com.example.www.medicationReminder.R;
+import com.MhMohamed.PillUp.R;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
 

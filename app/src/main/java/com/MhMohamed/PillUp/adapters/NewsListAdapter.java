@@ -16,7 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.MhMohamed.PillUp.NewsFragment;
-import com.example.www.medicationReminder.R;
+import com.MhMohamed.PillUp.R;
 import com.MhMohamed.PillUp.models.New;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;

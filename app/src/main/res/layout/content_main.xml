@@ -33,7 +33,7 @@
             android:layout_gravity="bottom|end"
             android:elevation="@dimen/fab_elevation"
             android:layout_marginBottom="@dimen/fab_margin"
-            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginEnd="@dimen/fab_margin"
             app:backgroundTint="@color/colorPrimary"
             android:src="@drawable/fab_icon"
             android:contentDescription="@string/action_widget"

@@ -19,7 +19,7 @@ import com.MhMohamed.PillUp.adapters.NewsListAdapter;
 import com.MhMohamed.PillUp.models.New;
 import com.MhMohamed.PillUp.utils.Constants;
 import com.MhMohamed.PillUp.utils.Utility;
-import com.example.www.medicationReminder.R;
+import com.MhMohamed.PillUp.R;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
